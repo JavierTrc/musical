@@ -4,8 +4,6 @@ import { check } from 'meteor/check';
 
 import { Compositions } from './compositions.js';
 
-import { Random } from 'meteor/random'
-
 export const Melodies = new Mongo.Collection('melodies');
 
 /* Define how many melodies to publish/generate */
